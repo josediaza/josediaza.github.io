@@ -75,7 +75,7 @@ h1{
 
 /* quotes style */
 .headline{
-	color: silver;
+	color: grey;
 	font-family: Courier;
 	font-style: italic;
 }
@@ -87,7 +87,7 @@ h2{
 h4{
 	left: 30px;
     top: 20px;
-	color: silver;
+	color: grey;
 
 }
 
