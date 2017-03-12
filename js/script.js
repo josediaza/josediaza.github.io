@@ -19,7 +19,7 @@ function validateForm() {
 
 function myFunction() {
     var x = document.createElement("SCRIPT");
-    var t = document.createTextNode("alert('josediaz.arrechea@gmail.com')");
+    var t = document.createTextNode("confirm('josediaz.arrechea@gmail.com')");
     x.appendChild(t);
     document.body.appendChild(x);
 }

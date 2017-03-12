@@ -23,6 +23,13 @@ body{
 	border-radius:50%;
 	border-style: solid;
 	border-color: grey;
+	float: right;
+}
+.profile{
+	text-align: center;
+	align-content: center;
+	align-items: center;
+
 }
 
 /* Class of the Navigation bar */
