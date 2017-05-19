@@ -42,11 +42,13 @@ body{
 
 nav {
   float: right;
+  position: fixed;
 }
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  position: fixed;	
 }
 nav ul li {
   float: left;
@@ -80,7 +82,7 @@ nav ul li ul li a {
 }
 
 .nav-dropdown {
-  position: absolute;
+  position: fixed;
   z-index: 1;
   /* Guarantees that the dropdown will display on top of any content. */
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
@@ -89,7 +91,7 @@ nav ul li ul li a {
 
 .nav-mobile {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   background: #D3D3D3;
@@ -105,12 +107,15 @@ nav ul li ul li a {
   nav {
     width: 100%;
     padding: 70px 0 15px;
+    position: fixed;	  
   }
   nav ul {
     display: none;
+    position: fixed;	  
   }
   nav ul li {
     float: none;
+    position: fixed;	  
   }
   nav ul li a {
     padding: 15px;
