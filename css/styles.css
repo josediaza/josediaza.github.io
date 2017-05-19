@@ -42,6 +42,7 @@ body{
 
 nav {
   float: right;
+  position: fixed;
 }
 nav ul {
   list-style: none;
